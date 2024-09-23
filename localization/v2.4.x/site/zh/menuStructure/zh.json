@@ -1,42 +1,42 @@
 [
   {
-    "label": "关于 Milvus",
+    "label": "About Milvus",
     "id": "about",
     "isMenu": true,
     "order": 0,
     "children": [
       {
-        "label": "Milvus 是什么？",
+        "label": "What is Milvus",
         "id": "overview.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "Milvus 采用者",
+        "label": "Milvus Adopters",
         "id": "milvus_adopters.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "Milvus 路线图",
+        "label": "Milvus Roadmap",
         "id": "roadmap.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "发布",
+        "label": "Releases",
         "id": "release_notes.md",
         "order": 3,
         "children": []
       },
       {
-        "label": "基准",
+        "label": "Benchmarks",
         "id": "benchmark.md",
         "order": 4,
         "children": []
       },
       {
-        "label": "比较",
+        "label": "Comparison",
         "id": "comparison.md",
         "order": 5,
         "children": []
@@ -44,43 +44,43 @@
     ]
   },
   {
-    "label": "开始",
+    "label": "Get Started",
     "id": "getstarted",
     "isMenu": true,
     "order": 1,
     "children": [
       {
-        "label": "快速入门",
+        "label": "Quickstart",
         "id": "quickstart.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "安装 Milvus",
+        "label": "Install Milvus",
         "id": "install_milvus",
         "order": 1,
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "install-overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "运行 Milvus Lite",
+            "label": "Run Milvus Lite",
             "id": "milvus_lite.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "运行 Milvus Standalone",
+            "label": "Run Milvus Standalone",
             "id": "run_milvus_docker",
             "order": 2,
             "isMenu": true,
             "children": [
               {
-                "label": "要求",
+                "label": "Requirements",
                 "id": "prerequisite-docker.md",
                 "order": 0,
                 "children": []
@@ -100,13 +100,13 @@
             ]
           },
           {
-            "label": "运行 Milvus Distributed",
+            "label": "Run Milvus Distributed",
             "id": "run_milvus_k8s",
             "order": 3,
             "isMenu": true,
             "children": [
               {
-                "label": "要求",
+                "label": "Requirements",
                 "id": "prerequisite-helm.md",
                 "order": 0,
                 "children": []
@@ -118,7 +118,7 @@
                 "children": []
               },
               {
-                "label": "Helm 图表",
+                "label": "Helm Chart",
                 "id": "install_cluster-helm.md",
                 "order": 2,
                 "children": []
@@ -126,19 +126,19 @@
             ]
           },
           {
-            "label": "使用 GPU 运行 Milvus",
+            "label": "Run Milvus with GPU",
             "id": "run_milvus_gpu",
             "order": 4,
             "isMenu": true,
             "children": [
               {
-                "label": "要求",
+                "label": "Requirements",
                 "id": "prerequisite-gpu.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "Helm 图表",
+                "label": "Helm Chart",
                 "id": "install_cluster-helm-gpu.md",
                 "order": 1,
                 "children": []
@@ -154,7 +154,7 @@
         ]
       },
       {
-        "label": "安装 SDK",
+        "label": "Install SDKs",
         "id": "install_sdks",
         "order": 2,
         "children": [
@@ -187,37 +187,37 @@
     ]
   },
   {
-    "label": "概念",
+    "label": "Concepts",
     "id": "concepts",
     "isMenu": true,
     "order": 2,
     "children": [
       {
-        "label": "架构",
+        "label": "Architecture",
         "id": "architecture",
         "order": 0,
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "architecture_overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "存储/计算",
+            "label": "Storage/Computing",
             "id": "four_layers.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "主要组件",
+            "label": "Main Components",
             "id": "main_components.md",
             "order": 2,
             "children": []
           },
           {
-            "label": "数据处理",
+            "label": "Data Processing",
             "id": "data_processing.md",
             "order": 3,
             "children": []
@@ -231,61 +231,61 @@
         ]
       },
       {
-        "label": "比特集",
+        "label": "Bitset",
         "id": "bitset.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "一致性",
+        "label": "Consistency",
         "id": "consistency.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "多租户",
+        "label": "Multi-tenancy",
         "id": "multi_tenancy.md",
         "order": 3,
         "children": []
       },
       {
-        "label": "时间戳",
+        "label": "Timestamp",
         "id": "timestamp.md",
         "order": 4,
         "children": []
       },
       {
-        "label": "相似度指标",
+        "label": "Similarity Metrics",
         "id": "metric.md",
         "order": 5,
         "children": []
       },
       {
-        "label": "时间同步",
+        "label": "Time Synchronization",
         "id": "time_sync.md",
         "order": 6,
         "children": []
       },
       {
-        "label": "向量索引",
+        "label": "Vector Index",
         "id": "vector_index",
         "order": 7,
         "isMenu": true,
         "children": [
           {
-            "label": "内存索引",
+            "label": "In-memory Index",
             "id": "index.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "磁盘索引",
+            "label": "On-disk Index",
             "id": "disk_index.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "GPU 指数",
+            "label": "GPU Index",
             "id": "gpu_index.md",
             "order": 2,
             "children": []
@@ -293,31 +293,31 @@
         ]
       },
       {
-        "label": "标量指数",
+        "label": "Scalar Index",
         "id": "scalar_index.md",
         "order": 8,
         "children": []
       },
       {
-        "label": "Rerankers",
+        "label": "Reranking",
         "id": "reranking.md",
         "order": 9,
         "children": []
       },
       {
-        "label": "用户和角色",
+        "label": "Users and Roles",
         "id": "users_and_roles.md",
         "order": 10,
         "children": []
       },
       {
-        "label": "内存复制",
+        "label": "In-memory Replica",
         "id": "replica.md",
         "order": 11,
         "children": []
       },
       {
-        "label": "术语",
+        "label": "Terminology",
         "id": "glossary.md",
         "order": 12,
         "children": []
@@ -325,49 +325,49 @@
     ]
   },
   {
-    "label": "用户指南",
+    "label": "User Guide",
     "id": "userguide",
     "isMenu": true,
     "order": 3,
     "children": [
       {
-        "label": "管理数据库",
+        "label": "Manage Databases",
         "id": "manage_databases.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "管理 Schema",
+        "label": "Manage Schema",
         "id": "schema.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "管理 Collections",
+        "label": "Manage Collections",
         "id": "manage-collections.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "管理索引",
+        "label": "Manage Indexes",
         "id": "manage_indexes",
         "order": 3,
         "isMenu": true,
         "children": [
           {
-            "label": "索引向量场",
+            "label": "Index Vector Fields",
             "id": "index-vector-fields.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "索引标量字段",
+            "label": "Index Scalar Fields",
             "id": "index-scalar-fields.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "使用 GPU 的索引",
+            "label": "Index with GPU",
             "id": "index-with-gpu.md",
             "order": 2,
             "children": []
@@ -375,31 +375,31 @@
         ]
       },
       {
-        "label": "管理分区",
+        "label": "Manage Partitions",
         "id": "manage-partitions.md",
         "order": 4,
         "children": []
       },
       {
-        "label": "插入、倒置和删除",
+        "label": "Insert, Upsert & Delete",
         "id": "insert-update-delete.md",
         "order": 5,
         "children": []
       },
       {
-        "label": "数据导入",
+        "label": "Data Import",
         "id": "data_import",
         "order": 6,
         "isMenu": true,
         "children": [
           {
-            "label": "准备源数据",
+            "label": "Prepare Source Data",
             "id": "prepare-source-data.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "导入数据",
+            "label": "Import Data",
             "id": "import-data.md",
             "order": 1,
             "children": []
@@ -407,31 +407,31 @@
         ]
       },
       {
-        "label": "搜索、查询和获取",
+        "label": "Search, Query & Get",
         "id": "search_query_get",
         "order": 7,
         "isMenu": true,
         "children": [
           {
-            "label": "单向量搜索",
+            "label": "Single-Vector Search",
             "id": "single-vector-search.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "混合搜索",
+            "label": "Hybrid Search",
             "id": "multi-vector-search.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "获取和标量查询",
+            "label": "Get & Scalar Query",
             "id": "get-and-scalar-query.md",
             "order": 2,
             "children": []
           },
           {
-            "label": "使用迭代器",
+            "label": "With Iterators",
             "id": "with-iterators.md",
             "order": 3,
             "children": []
@@ -439,7 +439,7 @@
         ]
       },
       {
-        "label": "高级功能",
+        "label": "Advanced Features",
         "id": "advanced_features",
         "order": 8,
         "isMenu": true,
@@ -457,43 +457,43 @@
             "children": []
           },
           {
-            "label": "JSON 字段",
+            "label": "JSON Field",
             "id": "use-json-fields.md",
             "order": 2,
             "children": []
           },
           {
-            "label": "数组字段",
+            "label": "Array Field",
             "id": "array_data_type.md",
             "order": 3,
             "children": []
           },
           {
-            "label": "稀疏向量",
+            "label": "Sparse Vector",
             "id": "sparse_vector.md",
             "order": 4,
             "children": []
           },
           {
-            "label": "标量过滤规则",
+            "label": "Scalar Filtering Rules",
             "id": "boolean.md",
             "order": 5,
             "children": []
           },
           {
-            "label": "MMap 存储",
+            "label": "MMap Storage",
             "id": "mmap.md",
             "order": 6,
             "children": []
           },
           {
-            "label": "管理资源组",
+            "label": "Manage Resource Groups",
             "id": "resource_group.md",
             "order": 7,
             "children": []
           },
           {
-            "label": "聚类压缩",
+            "label": "Clustering Compaction",
             "id": "clustering-compaction.md",
             "order": 8,
             "children": []
@@ -503,7 +503,7 @@
     ]
   },
   {
-    "label": "模型",
+    "label": "Models",
     "id": "models",
     "isMenu": true,
     "order": 4,
@@ -515,7 +515,7 @@
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "embeddings.md",
             "order": 0,
             "children": []
@@ -577,7 +577,7 @@
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "rerankers-overview.md",
             "order": 0,
             "children": []
@@ -595,7 +595,7 @@
             "children": []
           },
           {
-            "label": "交叉编码器",
+            "label": "Cross Encoder",
             "id": "rerankers-cross-encoder.md",
             "order": 3,
             "children": []
@@ -617,37 +617,37 @@
     ]
   },
   {
-    "label": "Milvus 迁移",
+    "label": "Milvus Migration",
     "id": "milvus_migration",
     "isMenu": true,
     "order": 5,
     "children": [
       {
-        "label": "概述",
+        "label": "Overview",
         "id": "migrate_overview.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "安装迁移工具",
+        "label": "Install Migration Tool",
         "id": "milvusdm_install.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "来自 Elasticsearch",
+        "label": "From Elasticsearch",
         "id": "es2m.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "来自 Faiss",
+        "label": "From Faiss",
         "id": "f2m.md",
         "order": 3,
         "children": []
       },
       {
-        "label": "来自 Milvus 1.x",
+        "label": "From Milvus 1.x",
         "id": "m2m.md",
         "order": 4,
         "children": []
@@ -661,43 +661,43 @@
     ]
   },
   {
-    "label": "管理指南",
+    "label": "Administration Guide",
     "id": "admin_guide",
     "isMenu": true,
     "order": 9,
     "children": [
       {
-        "label": "部署",
+        "label": "Deployment",
         "id": "deployment",
         "order": 0,
         "isMenu": true,
         "children": [
           {
-            "label": "本地部署",
+            "label": "On Premises",
             "id": "on_premises",
             "order": 0,
             "isMenu": true,
             "children": [
               {
-                "label": "使用 Docker",
+                "label": "With Docker",
                 "id": "configure-docker.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "使用 Helm",
+                "label": "With Helm",
                 "id": "configure-helm.md",
                 "order": 1,
                 "children": []
               },
               {
-                "label": "使用 Milvus 操作符",
+                "label": "With Milvus Operator",
                 "id": "configure_operator.md",
                 "order": 2,
                 "children": []
               },
               {
-                "label": "分配资源",
+                "label": "Allocate Resources",
                 "id": "allocate.md",
                 "order": 3,
                 "children": []
@@ -705,37 +705,37 @@
             ]
           },
           {
-            "label": "关于云",
+            "label": "On Clouds",
             "id": "on_cloud",
             "order": 1,
             "isMenu": true,
             "children": [
               {
-                "label": "在 AWS 上部署",
+                "label": "Deploy on AWS",
                 "id": "eks.md",
                 "order": 1,
                 "children": []
               },
               {
-                "label": "在 GCP 上部署",
+                "label": "Deploy on GCP",
                 "id": "gcp.md",
                 "order": 2,
                 "children": []
               },
               {
-                "label": "在 Azure 上部署",
+                "label": "Deploy on Azure",
                 "id": "azure.md",
                 "order": 3,
                 "children": []
               },
               {
-                "label": "在 OpenShift 上部署",
+                "label": "Deploy on OpenShift",
                 "id": "openshift.md",
                 "order": 4,
                 "children": []
               },
               {
-                "label": "Layer-7 负载均衡",
+                "label": "Layer-7 Load Balacing",
                 "id": "layer-7-lb",
                 "order": 5,
                 "isMenu": true,
@@ -761,7 +761,7 @@
                 ]
               },
               {
-                "label": "云存储",
+                "label": "Cloud Storage",
                 "id": "cloud-storage",
                 "order": 6,
                 "isMenu": true,
@@ -791,43 +791,43 @@
         ]
       },
       {
-        "label": "配置",
+        "label": "Configuration",
         "id": "configuration",
         "order": 1,
         "isMenu": true,
         "children": [
           {
-            "label": "系统配置",
+            "label": "System Configurations",
             "id": "system_configuration.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "动态配置",
+            "label": "On the Fly",
             "id": "dynamic_config.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "Collection 数量限制",
+            "label": "Limit Collection Counts",
             "id": "limit_collection_counts.md",
             "order": 2,
             "children": []
           },
           {
-            "label": "配置块缓存",
+            "label": "Configure Chunk Cache",
             "id": "chunk_cache.md",
             "order": 3,
             "children": []
           },
           {
-            "label": "协调员 HA",
+            "label": "Coordinator HA",
             "id": "coordinator_ha.md",
             "order": 4,
             "children": []
           },
           {
-            "label": "使用本地磁盘的查询节点",
+            "label": "QueryNode Using Local Disk",
             "id": "configure-querynode-localdisk.md",
             "order": 5,
             "children": []
@@ -835,31 +835,31 @@
         ]
       },
       {
-        "label": "管理依赖关系",
+        "label": "Manage Dependencies",
         "id": "manage_dependencies",
         "order": 2,
         "isMenu": true,
         "children": [
           {
-            "label": "使用 Docker 或 Helm",
+            "label": "With Docker or Helm",
             "id": "docker_helm_dependencies",
             "order": 0,
             "isMenu": true,
             "children": [
               {
-                "label": "对象存储",
+                "label": "Object Storage",
                 "id": "deploy_s3.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "元存储",
+                "label": "Meta Storage",
                 "id": "deploy_etcd.md",
                 "order": 1,
                 "children": []
               },
               {
-                "label": "信息存储",
+                "label": "Message Storage",
                 "id": "deploy_pulsar.md",
                 "order": 2,
                 "children": []
@@ -867,25 +867,25 @@
             ]
           },
           {
-            "label": "使用 Milvus 操作符",
+            "label": "With Milvus Operator",
             "id": "milvus_operator_dependencies",
             "order": 1,
             "isMenu": true,
             "children": [
               {
-                "label": "对象存储",
+                "label": "Object Storage",
                 "id": "object_storage_operator.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "元存储",
+                "label": "Meta Storage",
                 "id": "meta_storage_operator.md",
                 "order": 1,
                 "children": []
               },
               {
-                "label": "信息存储",
+                "label": "Message Storage",
                 "id": "message_storage_operator.md",
                 "order": 2,
                 "children": []
@@ -895,19 +895,19 @@
         ]
       },
       {
-        "label": "缩放",
+        "label": "Scaling",
         "id": "scaling",
         "order": 4,
         "isMenu": true,
         "children": [
           {
-            "label": "规模群",
+            "label": "Scale Cluster",
             "id": "scaleout.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "规模依赖性",
+            "label": "Scale Dependencies",
             "id": "scale-dependencies.md",
             "order": 1,
             "children": []
@@ -915,18 +915,18 @@
         ]
       },
       {
-        "label": "升级",
+        "label": "Upgrade",
         "id": "upgrade_milvus",
         "order": 7,
         "children": [
           {
-            "label": "升级 Milvus 集群",
+            "label": "Upgrade Milvus Cluster",
             "id": "upgrade_milvus_cluster-operator.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "升级 Milvus Standalone",
+            "label": "Upgrade Milvus Standalone",
             "id": "upgrade_milvus_standalone-operator.md",
             "order": 1,
             "children": []
@@ -934,37 +934,37 @@
         ]
       },
       {
-        "label": "监控、警报和日志",
+        "label": "Monitoring, Alerts & Logs",
         "id": "monitor_alert_log",
         "order": 8,
         "isMenu": true,
         "children": [
           {
-            "label": "监测",
+            "label": "Monitoring",
             "id": "monitoring",
             "order": 0,
             "isMenu": true,
             "children": [
               {
-                "label": "架构",
+                "label": "Architecture",
                 "id": "monitor_overview.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "部署监控服务",
+                "label": "Deploy Monitoring Services",
                 "id": "monitor.md",
                 "order": 1,
                 "children": []
               },
               {
-                "label": "可视化指标",
+                "label": "Visualize Metrics",
                 "id": "visualize.md",
                 "order": 2,
                 "children": []
               },
               {
-                "label": "Milvus 指标仪表板",
+                "label": "Milvus Metrics Dashboard",
                 "id": "metrics_dashboard.md",
                 "order": 3,
                 "children": []
@@ -972,13 +972,13 @@
             ]
           },
           {
-            "label": "警报",
+            "label": "Alerts",
             "id": "alerts",
             "order": 1,
             "isMenu": true,
             "children": [
               {
-                "label": "创建警报",
+                "label": "Create an Alert",
                 "id": "alert.md",
                 "order": 0,
                 "children": []
@@ -986,19 +986,19 @@
             ]
           },
           {
-            "label": "日志",
+            "label": "Logs",
             "id": "logs",
             "order": 2,
             "isMenu": true,
             "children": [
               {
-                "label": "配置 Grafana Loki",
+                "label": "Configure Grafana Loki",
                 "id": "configure_grafana_loki.md",
                 "order": 0,
                 "children": []
               },
               {
-                "label": "配置访问日志",
+                "label": "Configure Access Logs",
                 "id": "configure_access_logs.md",
                 "order": 1,
                 "children": []
@@ -1008,26 +1008,26 @@
         ]
       },
       {
-        "label": "安全",
+        "label": "Security",
         "id": "security",
         "order": 9,
         "isMenu": true,
         "children": [
           {
-            "label": "启用身份验证",
+            "label": "Enable Authentication",
             "id": "authenticate.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "启用 RBAC",
+            "label": "Enable RBAC",
             "id": "rbac.md",
             "order": 1,
             "isMenu": true,
             "children": []
           },
           {
-            "label": "传输中加密",
+            "label": "Encryption in Transit",
             "id": "tls.md",
             "order": 2,
             "children": []
@@ -1037,7 +1037,7 @@
     ]
   },
   {
-    "label": "工具",
+    "label": "Tools",
     "id": "tools",
     "isMenu": true,
     "order": 6,
@@ -1049,19 +1049,19 @@
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "cli_overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "安装",
+            "label": "Installation",
             "id": "install_cli.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "命令",
+            "label": "Commands",
             "id": "cli_commands.md",
             "order": 2,
             "children": []
@@ -1069,18 +1069,18 @@
         ]
       },
       {
-        "label": "Milvus 备份",
+        "label": "Milvus Backup",
         "id": "milvus_backup",
         "order": 1,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "milvus_backup_overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "命令",
+            "label": "Commands",
             "id": "milvus_backup_cli.md",
             "order": 1,
             "children": []
@@ -1100,25 +1100,25 @@
         "isMenu": true,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "milvus-cdc-overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "部署 CDC 服务器",
+            "label": "Deploy CDC Server",
             "id": "deploy-cdc-server.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "管理 CDC 任务",
+            "label": "Manage CDC Tasks",
             "id": "manage-cdc-tasks.md",
             "order": 2,
             "children": []
           },
           {
-            "label": "监测",
+            "label": "Monitoring",
             "id": "cdc-monitoring.md",
             "order": 3,
             "children": []
@@ -1126,7 +1126,7 @@
         ]
       },
       {
-        "label": "Attu（Milvus 图形用户界面）",
+        "label": "Attu(Milvus GUI)",
         "id": "milvus_attu",
         "order": 4,
         "externalLink": "https://github.com/zilliztech/attu",
@@ -1138,19 +1138,19 @@
         "order": 5,
         "children": [
           {
-            "label": "概述",
+            "label": "Overview",
             "id": "birdwatcher_overview.md",
             "order": 0,
             "children": []
           },
           {
-            "label": "安装指南",
+            "label": "Install Guides",
             "id": "birdwatcher_install_guides.md",
             "order": 1,
             "children": []
           },
           {
-            "label": "使用指南",
+            "label": "Usage Guides",
             "id": "birdwatcher_usage_guides.md",
             "order": 2,
             "children": []
@@ -1158,14 +1158,14 @@
         ]
       },
       {
-        "label": "Milvus 尺寸工具",
+        "label": "Milvus Sizing Tool",
         "id": "sizing",
         "order": 6,
         "externalLink": "https://milvus.io/tools/sizing/",
         "children": []
       },
       {
-        "label": "Milvus 连接器",
+        "label": "Milvus Connectors",
         "id": "milvus_connectors",
         "order": 7,
         "isMenu": true,
@@ -1181,19 +1181,19 @@
     ]
   },
   {
-    "label": "集成",
+    "label": "Integrations",
     "id": "integrations",
     "isMenu": true,
     "order": 8,
     "children": [
       {
-        "label": "概述",
+        "label": "Overview",
         "id": "integrations_overview.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "嵌入模型",
+        "label": "Embedding Models",
         "id": "integrate-embeddings-models",
         "order": 1,
         "children": [
@@ -1267,7 +1267,7 @@
         ]
       },
       {
-        "label": "编排",
+        "label": "Orchestration",
         "id": "orchestrate-with-milvus",
         "order": 3,
         "children": [
@@ -1277,7 +1277,7 @@
             "order": 0,
             "children": [
               {
-                "label": "基本用法",
+                "label": "Basic Usage",
                 "id": "basic_usage_langchain.md",
                 "order": 1,
                 "children": []
@@ -1289,7 +1289,7 @@
                 "children": []
               },
               {
-                "label": "混合搜索",
+                "label": "Hybrid Search",
                 "id": "milvus_hybrid_search_retriever.md",
                 "order": 3,
                 "children": []
@@ -1355,7 +1355,7 @@
         ]
       },
       {
-        "label": "知识工程",
+        "label": "Knowledge Engineering",
         "id": "knowledge-engineering",
         "order": 5,
         "children": [
@@ -1374,7 +1374,7 @@
         ]
       },
       {
-        "label": "评估与可观察性",
+        "label": "Evaluation & Observability",
         "id": "evaluation-observability",
         "order": 6,
         "children": [
@@ -1399,7 +1399,7 @@
         ]
       },
       {
-        "label": "数据来源",
+        "label": "Data Sources",
         "id": "data-sources",
         "order": 7,
         "children": [
@@ -1412,7 +1412,7 @@
         ]
       },
       {
-        "label": "其他",
+        "label": "Others",
         "id": "other-integrations",
         "order": 8,
         "children": [
@@ -1427,90 +1427,90 @@
     ]
   },
   {
-    "label": "教程",
+    "label": "Tutorials",
     "id": "tutorials",
     "isMenu": true,
     "order": 7,
     "children": [
       {
-        "label": "概述",
+        "label": "Overview",
         "id": "tutorials-overview.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "用 Milvus 打造 RAG",
+        "label": "Build RAG with Milvus",
         "id": "build-rag-with-milvus.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "使用 Milvus 进行图像搜索",
+        "label": "Image Search with Milvus",
         "id": "image_similarity_search.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "使用 Milvus 进行混合搜索",
+        "label": "Hybrid Search with Milvus",
         "id": "hybrid_search_with_milvus.md",
         "order": 3,
         "children": []
       },
       {
-        "label": "多式联运 RAG",
+        "label": "Multimodal RAG",
         "id": "multimodal_rag_with_milvus.md",
         "order": 4,
         "children": []
       },
       {
-        "label": "探索更多",
+        "label": "Explore More",
         "id": "explore-more",
         "order": 4,
         "children": [
           {
-            "label": "答题系统",
+            "label": "Question Answering System",
             "id": "question_answering_system.md",
             "order": 5,
             "children": []
           },
           {
-            "label": "推荐系统",
+            "label": "Recommender System",
             "id": "recommendation_system.md",
             "order": 6,
             "children": []
           },
           {
-            "label": "视频相似性搜索",
+            "label": "Video Similarity Search",
             "id": "video_similarity_search.md",
             "order": 7,
             "children": []
           },
           {
-            "label": "音频相似性搜索",
+            "label": "Audio Similarity Search",
             "id": "audio_similarity_search.md",
             "order": 8,
             "children": []
           },
           {
-            "label": "DNA 序列分类",
+            "label": "DNA Sequence Classification",
             "id": "dna_sequence_classification.md",
             "order": 9,
             "children": []
           },
           {
-            "label": "文本搜索引擎",
+            "label": "Text Search Engine",
             "id": "text_search_engine.md",
             "order": 10,
             "children": []
           },
           {
-            "label": "文本到图像搜索引擎",
+            "label": "Text to Image Search Engine",
             "id": "text_image_search.md",
             "order": 11,
             "children": []
           },
           {
-            "label": "图像重复数据删除系统",
+            "label": "Image Deduplication System",
             "id": "image_deduplication_system.md",
             "order": 12,
             "children": []
@@ -1520,37 +1520,37 @@
     ]
   },
   {
-    "label": "常见问题",
+    "label": "FAQs",
     "id": "faq",
     "isMenu": true,
     "order": 9,
     "children": [
       {
-        "label": "性能常见问题",
+        "label": "Performance FAQs",
         "id": "performance_faq.md",
         "order": 0,
         "children": []
       },
       {
-        "label": "产品常见问题",
+        "label": "Product FAQs",
         "id": "product_faq.md",
         "order": 1,
         "children": []
       },
       {
-        "label": "操作常见问题",
+        "label": "Operational FAQs",
         "id": "operational_faq.md",
         "order": 2,
         "children": []
       },
       {
-        "label": "Milvus 限制",
+        "label": "Milvus Limits",
         "id": "limitations.md",
         "order": 3,
         "children": []
       },
       {
-        "label": "故障排除",
+        "label": "Troubleshooting",
         "id": "troubleshooting.md",
         "order": 4,
         "children": []
